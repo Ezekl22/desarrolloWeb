@@ -2,7 +2,7 @@
 body{
     margin: 0px;
 }
-    nav{
+    /* nav{
         position: sticky;
         top: 0;
         left: 0;
@@ -29,7 +29,7 @@ body{
                     color: black;
                     padding-right: 45px;
                     text-decoration: none;
-                }
+                } */
     header{
         margin: 100px 0px 100px 0px;
         background-image: url(../img/backgroundNav.jpg);
@@ -66,8 +66,16 @@ body{
     padding-left: 24%;
 }
 
+#navbarNav {
+    flex-grow: unset !important;
+}
+
 .inlineBlock{
     display: inline-block;
+}
+
+.btn-outline-secondary{
+   border: none !important;
 }
 
 .centrarVertical{
