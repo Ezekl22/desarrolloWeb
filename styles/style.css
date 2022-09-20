@@ -78,6 +78,10 @@ body{
    border: none !important;
 }
 
+.nav__buttons-borderHeight{
+    border: none;
+}
+
 .centrarVertical{
     height: 100%;
     margin: auto;
