@@ -2,6 +2,9 @@
 body{
     margin: 0px;
 }
+    nav{
+        background-color: #bbdcf1;
+    }
     /* nav{
         position: sticky;
         top: 0;
@@ -103,12 +106,12 @@ body{
     text-decoration: none;
 }
 
-.row{
+.rowFlex{
     display: flex;
     flex-direction: row;
 }
 
-.col{
+.colFlex{
     display: flex;
     flex-direction: column;
 }
@@ -139,7 +142,17 @@ body{
 }
 
 /*-----------------index---------------------*/
+.card-img-top{
+    width: 70%;
+}
 
+.colorBlack{
+    color: black;
+}
+
+
+
+/* 
 .servicios{
     width: 30%;
 }
@@ -174,7 +187,7 @@ body{
         #imgHeader article img{
             padding-top: 15px;
             width: 80%;
-        }
+        } */
 
 /*---------------ACERCA DE NOSOTROS--------------------*/
 
