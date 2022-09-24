@@ -117,6 +117,10 @@ body{
     .main__card{
         width: 50% !important;
     }
+
+    .main__title{
+        font-size: 25px !important;
+    }
 }
 @media (min-width: 1200px) {
     .main__nosotros{
