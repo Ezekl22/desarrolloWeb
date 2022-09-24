@@ -65,52 +65,30 @@ body{
 }
 
 /*-----------------index---------------------*/
-.card-img-top{
-    width: 70%;
+
+.header__description{
+    justify-content: space-evenly;
+    margin:5%;
 }
 
-.colorBlack{
+.header__card-img{
+    width: 15%;
+}
+
+.header__card-text{
     color: black;
 }
 
-
-
-/* 
-.servicios{
-    width: 30%;
+.main__cont-cards{
+    justify-content: space-evenly;
 }
 
-.margenes{
-    margin: 20px 25px;
+.main__card{
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
-.imgServicios{
-    width: 95%;
-    height: 80%;
-    padding-bottom: 15px;
-}
-
-#imgHeader{
-    width: 20%;
-    height: 80%;
-}
-
-    #imgHeader article{
-        background-color: #fff;
-        margin: 15px 0px;
-        border: 1px solid #686256;
-        border-radius: 16px;
-        color: black;
-    }
-
-    #imgHeader h4{
-        margin:10px 0px;
-    }  
-
-        #imgHeader article img{
-            padding-top: 15px;
-            width: 80%;
-        } */
 
 /*---------------ACERCA DE NOSOTROS--------------------*/
 
