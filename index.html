@@ -12,7 +12,7 @@
 
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg shadow border-bottom p-3 mb-5">
-        <div class="container-fluid">
+        <section class="container-fluid">
             <a class="navbar-brand nav__icon-color" href="./index.html">
                 <img src="./img/logo.png" alt="">
                 Integral service
@@ -21,7 +21,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse me-5 nav__cont-buttons">
+            <article class="collapse navbar-collapse me-5 nav__cont-buttons">
                 <ul class="nav justify-content-end">
                     <li class="nav-item me-5">
                         <a type="button" class="btn nav__buttons-format-buttom" href="./productos.html">Productos</a>
@@ -33,11 +33,11 @@
                         <a type="button" class="btn nav__buttons-format-buttom" href="./alquiler.html">Alquiler</a>
                     </li>
                   </ul>
-            </div>
-        </div>
+            </article>
+        </section>
     </nav>
-    <header class=" maxWidth espaciadoHFlex rowFlex">
-        <section class="col centradoVFlex espaciadoHFlex">
+    <header class="d-flex w-100">
+        <section class="d-flex flex-column header__description">
             <article class="maxWidth justifyCenter rowFlex">
                 <h2 class="centradoHorizontal">Impresoras laser</h2>
             </article>
@@ -56,15 +56,50 @@
                 </li>
             </ul>
         </section>
-        <section class="card alignCenter" style="width: 18rem;">
-            <img src="./img/ImpresoraLaser.jpeg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h4 class="card-title colorBlack">Entrega al cliente</h4>
-                <p class="card-text colorBlack">En tan solo 24 horas con 6 meses de garantía.</p>
+        <section class="card w-25 my-2 d-flex align-items-center">
+            <img src="./img/ImpresoraLaser.jpeg" class="w-75" alt="...">
+            <div class="card-body text-center">
+                <h4 class="card-title header__card-text">Entrega al cliente</h4>
+                <p class="card-text header__card-text">En tan solo 24 horas con 6 meses de garantía.</p>
             </div>
         </section>
     </header>
-    <footer class="text-center text-lg-start mt-auto">
+    <main class="col">
+        <section class="d-flex flex-row main__cont-cards mb-5">
+            <a href="./reparacionMantenimiento.html" class="card shadow w-25 my-2 d-flex flex-column align-items-center main__card">
+                <img src="./img/mantenimiento-impresoras.jpg" class="w-75 mt-3" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title header__card-text">Mantenimiento</h4>
+                    <p class="card-text header__card-text">
+                        Nos especializamos en la calibracion, limpieza y recambio de piezas para maximizar la vida util de tu
+                        maquina.
+                    </p>
+                </div>
+            </a>
+            <a href="./reparacionMantenimiento.html" class="card w-25 my-2 shadow d-flex flex-column align-items-center main__card">
+                <img src="./img/reparaciones.jpeg" class="w-75 mt-3" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title header__card-text">Reparacion</h4>
+                    <p class="card-text header__card-text">
+                        Arreglamos tu impresora o fotocopiadora con los mejores estandares de calidad a 
+                        nivel mundial.
+                    </p>
+                </div>
+            </a>
+            <a href="./reparacionMantenimiento.html" class="card w-25 my-2 shadow d-flex flex-column align-items-center main__card">
+                <img src="./img/alquilerIndex.jpeg" class="w-75 mt-3" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title header__card-text">Alquiler</h4>
+                    <p class="card-text header__card-text">
+                        Comprar un equipo de impresion o fotocopiador es una inversion que aveces no se puede costear o
+                        lidiar con el mantenimiento de estas maquinas es algo tedioso.
+                        Alquilamos equipos de ultima generacion.
+                    </p>
+                </div>
+            </a>
+        </section>
+    </main>
+    <footer class="text-center text-lg-start mt-5">
         <div class="container p-4">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
