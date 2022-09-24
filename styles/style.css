@@ -64,6 +64,10 @@ body{
     width: 10%;
 }
 
+.justifi-content-evenly{
+    justify-content: space-evenly;
+}
+
 /*-----------------index---------------------*/
 
 .header__description{
@@ -89,38 +93,36 @@ body{
     text-align: center;
 }
 
-
 /*---------------ACERCA DE NOSOTROS--------------------*/
 
-#nosotros{
+.main__shadow{
+    box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.main__nosotros{
     margin: 3% 5% 5%;
     background: linear-gradient(90deg, rgba(0,212,255,1) 33%, rgba(8,38,140,1) 86%, rgba(15,10,101,1) 100%);
 }
-
-    #nosotros .col{
-        width: 60%;
-    }
-
-    #nosotros img{
-        width: 74%;
+    .main__nosotros img{
+        width: 95%;
         height: 86%;
     }
 
-    #nosotros div p{
+    .main__nosotros div p{
         margin-left: 7%;
         font-size: larger;
     }
 
-#contactos{
+.main__contactos{
     margin: 3% 10% 5%;
-    background: rgba(0,212,255,1);
+    background: #bee3f5;
 }
-    #contactos p{
+    .main__contactos p{
         margin-left: 7%;
         font-size: larger;
     }
 
-.title{
+.main__title{
     font-size: 45px;
 }
 /*-----------------------Alquiler-------------------------------*/
