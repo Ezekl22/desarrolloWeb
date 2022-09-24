@@ -5,6 +5,9 @@ body{
     nav{
         background-color: #bbdcf1;
     }
+    nav:hover{
+        color:#1B0BFF;
+    }
     /* nav{
         position: sticky;
         top: 0;
@@ -81,8 +84,18 @@ body{
    border: none !important;
 }
 
-.nav__buttons-borderHeight{
-    border: none;
+.nav__buttons-format-buttom{
+    border-radius: 15px;
+}
+
+.nav__buttons-format-buttom:hover{
+    color: #1B0BFF;
+    border: 1px solid #93d1fa !important;
+    box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.nav__icon-format:hover{
+    color: #1B0BFF;
 }
 
 .centrarVertical{
