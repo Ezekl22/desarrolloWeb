@@ -3,6 +3,12 @@ body{
     margin: 0px;
 }
     nav{
+        background-color: #bbdcf1;
+    }
+    nav:hover{
+        color:#1B0BFF;
+    }
+    /* nav{
         position: sticky;
         top: 0;
         left: 0;
@@ -29,7 +35,7 @@ body{
                     color: black;
                     padding-right: 45px;
                     text-decoration: none;
-                }
+                } */
     header{
         margin: 100px 0px 100px 0px;
         background-image: url(../img/backgroundNav.jpg);
@@ -66,8 +72,30 @@ body{
     padding-left: 24%;
 }
 
+#navbarNav {
+    flex-grow: unset !important;
+}
+
 .inlineBlock{
     display: inline-block;
+}
+
+.btn-outline-secondary{
+   border: none !important;
+}
+
+.nav__buttons-format-buttom{
+    border-radius: 15px;
+}
+
+.nav__buttons-format-buttom:hover{
+    color: #1B0BFF;
+    border: 1px solid #93d1fa !important;
+    box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.nav__icon-format:hover{
+    color: #1B0BFF;
 }
 
 .centrarVertical{
@@ -91,12 +119,12 @@ body{
     text-decoration: none;
 }
 
-.row{
+.rowFlex{
     display: flex;
     flex-direction: row;
 }
 
-.col{
+.colFlex{
     display: flex;
     flex-direction: column;
 }
@@ -127,7 +155,17 @@ body{
 }
 
 /*-----------------index---------------------*/
+.card-img-top{
+    width: 70%;
+}
 
+.colorBlack{
+    color: black;
+}
+
+
+
+/* 
 .servicios{
     width: 30%;
 }
@@ -162,7 +200,7 @@ body{
         #imgHeader article img{
             padding-top: 15px;
             width: 80%;
-        }
+        } */
 
 /*---------------ACERCA DE NOSOTROS--------------------*/
 
