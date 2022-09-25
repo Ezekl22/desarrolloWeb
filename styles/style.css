@@ -118,15 +118,12 @@ body{
         width: 50% !important;
     }
 }
-@media (min-width: 1200px) {
-    .main__nosotros{
-        flex-wrap: nowrap;
-    }
-}
 
 .card__text{
     color: black;
 }
+
+
 /*-----------------index---------------------*/
 
 .header__description{
@@ -147,7 +144,17 @@ body{
     color: black;
     text-align: center;
 }
+.main__card:hover{
+    transform: scale(1.04);
+}
 
+@keyframes cardsIndex {
+   0%{width: 25%}
+   25%{width: 27%}
+   50%{width: 29%} 
+   75%{width: 32%}
+   100%{width: 35%}
+}
 /*---------------ACERCA DE NOSOTROS--------------------*/
 
 .main__shadow{
