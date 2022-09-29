@@ -123,6 +123,9 @@ body{
     color: black;
 }
 
+.shadow-xl{
+    box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
 
 /*-----------------index---------------------*/
 
@@ -189,16 +192,17 @@ body{
 }
 /*-----------------------Alquiler-------------------------------*/
 
-#presentacion{
+.main__presentacion{
     width: 93%;
-    background: rgba(0,212,255,1);
+    background: #e9ecef;
 }
-    #presentacion img{
+
+    .main__presentacion img{
         width: 90%;
         padding-top: 4%;
     }
 
-    #presentacion p{
+    .main__presentacion p{
         font-size: larger;
         width: 90%;
     }

@@ -37,13 +37,13 @@
         </div>
     </nav>
     <main>
-        <section class="col alignCenter" id="contPresentacion">
+        <section class="d-flex flex-column align-items-center" id="contPresentacion">
             <article>
-                <h1 class="title"><strong>Alquiler</strong></h1>
+                <h1 class="main__title mb-5"><strong>Alquiler</strong></h1>
             </article>
-            <article class="col espaciadoHFlex alignCenter boxShadow" id="presentacion">
-                <img src="./img/alquiler.png" alt="">
-                <p>
+            <article class="d-flex flex-column align-items-center rounded justifi-content-evenly shadow-xl main__presentacion">
+                <img src="./img/alquiler.png" class="rounded" alt="">
+                <p class="mt-5">
                     Comprar un equipo de impresion o fotocopiador es una inversion que aveces no se puede costear cuando
                     uno inicia un microemprendimiento o lidiar con el mantenimiento de estas maquinas es algo tedioso,
                     nosotros tenems la solucion para vos.
@@ -53,129 +53,65 @@
                 </p>
             </article>
         </section>
-        <section class="col alignCenter">
-            <article class="row justifyCenter" id="subTAlquiler">
+        <section class="d-flex flex-column align-items-center">
+            <article class="d-flex flex-row justify-content-center" id="subTAlquiler">
                 <h2>Formulario de pedido de alquiler</h2>
             </article>
-            <article class="col boxShadow" id="formAlquiler">
-                <div class="row espaciadoHFlex">
-                    <div class="col divHalf">
-                        <div class="row">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq" >
-                                    Nombre:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <input type="text" class="fontFormAlq" tabindex="1">
-                            </div>
+            <article class="d-flex flex-column shadow-xl" id="formAlquiler">
+                <div class="d-flex flex-row justifi-content-evenly">
+                    <div class="d-flex flex-column divHalf">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default01">Nombre:</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default01">
                         </div>
-                        <div class="row">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq">
-                                    Tipo de documento:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <select name="" id="" class="fontFormAlq" tabindex="3">
-                                    <option value="">
-                                        DNI
-                                    </option>
-                                    <option value="">
-                                        Libreta sivica
-                                    </option>
-                                    <option value="">
-                                        Libreta de enrolamiento
-                                    </option>
-                                    <option value="">
-                                        otro
-                                    </option>
-                                </select>
-                            </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect01">Tipo de documento:</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option value="1">DNI</option>
+                                <option value="2">Libreta sivica</option>
+                                <option value="3">Libreta de enrolamiento</option>
+                                <option value="4">otro</option>
+                            </select>
                         </div>
-                        <div class="row">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq">
-                                    Tipo de equipo:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <select name="" id="" class="fontFormAlq" tabindex="5">
-                                    <option value="">
-                                        impresora
-                                    </option>
-                                    <option value="">
-                                        fotocopiadora
-                                    </option>
-                                </select>
-                            </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect02">Tipo de equipo:</label>
+                            <select class="form-select" id="inputGroupSelect02">
+                                <option value="1">Impresora</option>
+                                <option value="2">Fotocopiadora</option>
+                            </select>
                         </div>
-                        <div class="row">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq">
-                                    Provincia:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <input type="text" class="fontFormAlq" tabindex="7">
-                            </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default02">Provincia:</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                         </div>
                     </div>
-                    <div class="col divHalf">
-                        <div class="row wdg">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq">
-                                    Apellido:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <input type="text" class="fontFormAlq" tabindex="2">
-                            </div>
+                    <div class="d-flex flex-column divHalf">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default03">Apellido:</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default03">
                         </div>
-                        <div class="row">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq">
-                                    Numero:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <input type="number" class="fontFormAlq" tabindex="4">
-                            </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default04">Numero:</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default04">
                         </div>
-                        <div class="row">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq">
-                                    Modelo:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <select name="" id="" class="fontFormAlq" tabindex="6">
-                                    <option value="">
-                                        HP Laser RC-70
-                                    </option>
-                                    <option value="">
-                                        Samsung QT-50
-                                    </option>
-                                </select>
-                            </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="inputGroupSelect03">Modelo:</label>
+                            <select class="form-select" id="inputGroupSelect03">
+                                <option value="1">HP Laser RC-70</option>
+                                <option value="2">Samsung QT-50</option>
+                            </select>
                         </div>
-                        <div class="row">
-                            <div class="divHalf">
-                                <label for="" class="fontFormAlq">
-                                    Localidad:
-                                </label>
-                            </div>
-                            <div class="divHalf">
-                                <input type="text" class="fontFormAlq" tabindex="8">
-                            </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default05">Numero:</span>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default05">
                         </div>
                     </div>
                 </div>
-                <div class="row justifyCenter">
+                <div class="d-flex flex-row justify-content-center">
                     <input type="checkbox" tabindex="9">
                     <p>Acepto todos los terminos y condiciones del alquiler de los distintos equipos</p>
                 </div>
-                <div class="row justifyCenter">
+                <div class="d-flex flex-row justify-content-center">
                     <button tabindex="10">
                         Enviar
                     </button>
