@@ -127,6 +127,20 @@ body{
     box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
+.main__btn{
+    color: #fff;
+    border: #686256 1px solid;
+    background: #00a2c3;
+    font-size: larger;
+}
+
+.main__btn:hover{
+    background: #0087a2 !important;
+    border: #686256 1px solid !important;
+    color: #fff !important;
+    box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
+}
+
 /*-----------------index---------------------*/
 
 .header__description{
@@ -215,19 +229,8 @@ body{
 }
 
 .main__enviar{
-    background: #00a2c3;
     width: 15%;
     height: 50px;
-    font-size: larger;
-    color: #fff;
-    border: #686256 1px solid;
-}
-
-.main__enviar:hover{
-    background: #0087a2 !important;
-    border: #686256 1px solid !important;
-    color: #fff !important;
-    box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
 }
 
 .main__form-alquiler{
@@ -299,7 +302,7 @@ body{
 
 /*---------------producto--------------------*/
 
-#producto{
+.main__producto{
     width: 85%;
     background: #465AFF;
     background: -webkit-radial-gradient(right, #465AFF, #5E53FF);
@@ -307,22 +310,25 @@ body{
     background: radial-gradient(to left, #465AFF, #5E53FF);
 }
 
-    #producto select{
+    .main__producto select{
         width: 30%;
-        margin: 2% 0px;
         font-size: larger;
     }
 
-    #producto img{
+    .main__producto img{
         width: 60%;
         margin: 3% 0px;
     }
 
-    #producto p{
+    .main__producto p{
         width: 80%;
     }
 
-    #producto button{
-        width: 200px;
+    .main__producto button{
+        width: 150px;
         height: 60px;
     }
+
+.main__buscador-detalle{
+    color: #fff;
+}
