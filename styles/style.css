@@ -207,19 +207,32 @@ body{
         width: 90%;
     }
 
+    .main__terminos p{
+        margin: 0px 0px 0px 10px;
+    }
+
+.main__enviar{
+    background: #00a2c3;
+    width: 15%;
+    height: 50px;
+    font-size: larger;
+    color: #fff;
+    border: #686256 1px solid;
+}
+
+.main__enviar:hover{
+    background: #0087a2 !important;
+    border: #686256 1px solid !important;
+    color: #fff !important;
+    box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
+}
+
 #formAlquiler{
     width: 90%;
     background: rgba(0,212,255,1);
 }
     #formAlquiler div{
         margin: 2% 0px;
-    }
-
-    #formAlquiler button{
-        width: 15%;
-        height: 50px;
-        font-size: larger;
-        border: #686256 1px solid;
     }
 
 .fontFormAlq{
