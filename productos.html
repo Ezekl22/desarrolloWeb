@@ -37,55 +37,55 @@
         </div>
     </nav>
     <!---------------------------main-------------------------------->
-    <main>
+    <main class="mb-5">
         <section class="d-flex flex-column align-items-center">
             <article class="d-flex flex-column align-items-center">
                 <h1 class="main__title">Productos</h1>
-                <h3>Vea aqui los esquipos que estan disponibles para comprar y/o alquilar</h3>
+                <h3 class="my-5">Vea aqui los esquipos que estan disponibles para comprar y/o alquilar</h3>
             </article>
-            <article class="d-flex flex-column main__shadow" id="producto">
-                <div class="d-flex flex-r justify-content-center">
-                    <select name="" id="">
-                        <option value="">
-                            Impresora
-                        </option>
-                        <option value="">
-                            Fotocopiadora
-                        </option>
-                    </select>
-                    <select name="" id="">
-                        <option value="">
-                            HP RC-80
-                        </option>
-                        <option value="">
-                            Samsung QT-50
-                        </option>
-                    </select>
+            <article class="d-flex flex-column main__shadow main__producto">
+                <div class="d-flex flex-row justify-content-center my-3">
+                    <div class="d-flex">
+                        <div class="input-group">
+                            <label class="input-group-text" for="inputGroupSelect01">Tipo</label>
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option value="1">Impresora</option>
+                                <option value="2">Fotocopiadora</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label class="input-group-text ms-4" for="inputGroupSelect02">Modelo</label>
+                            <select class="form-select" id="inputGroupSelect02">
+                                <option value="1">HP RC-80</option>
+                                <option value="2">Samsung QT-50</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 <div class="d-flex flex-row">
                     <div class="d-flex flex-column justifi-content-evenly align-items-center">
-                        <p>
+                        <p class="main__buscador-detalle">
                             Aqui se mostraran todos los datos del equipo que se este buscando indicando el tipo de
                             equipo (Impresora o fotocopiadora) y el modelo
                         </p>
                         <div class="d-flex flex-row justify-content-center">
-                            <button>
+                            <button class="btn main__btn me-lg-5" type="submit">
                                 Comprar
                             </button>
-                            <button>
+                            <button class="btn main__btn" type="submit">
                                 Alquilar
                             </button>
                         </div>
                     </div>
                     <div class="d-flex flex-row  justify-content-center divHalf">
-                        <img src="./img/ImpresoraLaser.jpeg" alt="" >
+                        <img src="./img/ImpresoraLaser.jpeg" alt="..." class="img-thumbnail rounded-2">
                     </div>
                 </div>
             </article>
         </section>
     </main>
     <!---------------------------main-------------------------------->
-    <footer class="text-center text-lg-start mt-auto">
+    <footer class="text-center text-lg-start mt-5">
         <div class="container p-4">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
