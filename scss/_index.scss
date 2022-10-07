@@ -1,0 +1,30 @@
+
+.header__description{
+    justify-content: space-evenly;
+    margin:5%;
+}
+
+.header__card-img{
+    width: 15%;
+}
+
+.main__cont-cards{
+    justify-content: space-evenly;
+}
+
+.main__card{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.main__card:hover{
+    transform: scale(1.04);
+}
+
+@keyframes cardsIndex {
+   0%{width: 25%}
+   25%{width: 27%}
+   50%{width: 29%} 
+   75%{width: 32%}
+   100%{width: 35%}
+}
