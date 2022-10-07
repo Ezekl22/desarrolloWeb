@@ -141,6 +141,13 @@ body{
     box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
 }
 
+.main__btn:focus{
+    background: #0087a2 !important;
+    border: #686256 1px solid !important;
+    color: #fff !important;
+    box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
+}
+
 /*-----------------index---------------------*/
 
 .header__description{
