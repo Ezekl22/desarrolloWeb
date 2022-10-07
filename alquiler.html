@@ -21,7 +21,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse me-5 nav__cont-buttons">
+            <div class="collapse navbar-collapse me-5 nav__cont-buttons" id="navbarNav">
                 <ul class="nav justify-content-end">
                     <li class="nav-item me-5">
                         <a type="button" class="btn nav__buttons-format-buttom" href="./productos.html">Productos</a>
@@ -62,11 +62,11 @@
                     <div class="d-flex flex-column divHalf">
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-default01">Nombre:</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default01">
+                            <input type="text" tabindex="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default01">
                         </div>
                         <div class="input-group mb-3">
                             <label class="input-group-text" for="inputGroupSelect01">Tipo de documento:</label>
-                            <select class="form-select" id="inputGroupSelect01">
+                            <select class="form-select" tabindex="3" id="inputGroupSelect01">
                                 <option value="1">DNI</option>
                                 <option value="2">Libreta sivica</option>
                                 <option value="3">Libreta de enrolamiento</option>
@@ -75,35 +75,35 @@
                         </div>
                         <div class="input-group mb-3">
                             <label class="input-group-text" for="inputGroupSelect02">Tipo de equipo:</label>
-                            <select class="form-select" id="inputGroupSelect02">
+                            <select class="form-select" tabindex="5" id="inputGroupSelect02">
                                 <option value="1">Impresora</option>
                                 <option value="2">Fotocopiadora</option>
                             </select>
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-default02">Provincia:</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <input type="text" tabindex="7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                         </div>
                     </div>
                     <div class="d-flex flex-column divHalf">
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-default03">Apellido:</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default03">
+                            <input type="text" tabindex="2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default03">
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-default04">Numero:</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default04">
+                            <input type="text" tabindex="4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default04">
                         </div>
                         <div class="input-group mb-3">
                             <label class="input-group-text" for="inputGroupSelect03">Modelo:</label>
-                            <select class="form-select" id="inputGroupSelect03">
+                            <select class="form-select" tabindex="6" id="inputGroupSelect03">
                                 <option value="1">HP Laser RC-70</option>
                                 <option value="2">Samsung QT-50</option>
                             </select>
                         </div>
                         <div class="input-group mb-3">
                             <span class="input-group-text" id="inputGroup-sizing-default05">Numero:</span>
-                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default05">
+                            <input type="text" class="form-control" tabindex="8" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default05">
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                     <p class="main__terminos">Acepto todos los terminos y condiciones del alquiler de los distintos equipos</p>
                 </div>
                 <div class="d-flex flex-row justify-content-center">
-                    <button type="button" class="btn main__btn main__enviar" tabindex="10">
+                    <button type="button" tabindex="10" class="btn main__btn main__enviar" tabindex="10">
                         Enviar
                     </button>
                 </div>
