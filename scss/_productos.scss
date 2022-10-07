@@ -1,0 +1,31 @@
+
+.main__producto{
+    width: 85%;
+    background: #465AFF;
+    background: -webkit-radial-gradient(right, #465AFF, #5E53FF);
+    background: -moz-radial-gradient(right, #465AFF, #5E53FF);
+    background: radial-gradient(to left, #465AFF, #5E53FF);
+}
+
+    .main__producto select{
+        width: 30%;
+        font-size: larger;
+    }
+
+    .main__producto img{
+        width: 60%;
+        margin: 3% 0px;
+    }
+
+    .main__producto p{
+        width: 80%;
+    }
+
+    .main__producto button{
+        width: 150px;
+        height: 60px;
+    }
+
+.main__buscador-detalle{
+    color: #fff;
+}

@@ -1,0 +1,36 @@
+.main__presentacion{
+    margin-bottom: 10%;
+}
+
+.main__presentacion-contenido{
+    width: 93%;
+    background: #e9ecef;
+}
+
+    .main__presentacion-contenido img{
+        width: 90%;
+        padding-top: 4%;
+    }
+
+    .main__presentacion-contenido p{
+        font-size: larger;
+        width: 90%;
+    }
+
+.main__terminos p{
+    margin: 0px 0px 0px 10px;
+}
+
+.main__enviar{
+    width: 15%;
+    height: 50px;
+}
+
+.main__form-alquiler{
+    width: 90%;
+    background: rgba(0,212,255,1);
+}
+
+    .main__form-alquiler div{
+        margin: 2% 0px;
+    }
