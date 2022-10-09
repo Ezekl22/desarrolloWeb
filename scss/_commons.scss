@@ -120,6 +120,19 @@ body{
     .main__card{
         width: 50% !important;
     }
+
+    .main__mantRep{
+        flex-direction: column !important;
+    }
+
+    .main__titulo-subt p{
+        width: 90% !important;
+    }
+
+    .main__mantRep article{
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
 }
 
 .card__text{
