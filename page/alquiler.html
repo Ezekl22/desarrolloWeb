@@ -12,7 +12,7 @@
 
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg shadow border-bottom p-3 mb-5">
-        <div class="container-fluid">
+        <section class="container-fluid">
             <a class="navbar-brand nav__icon-color" href="../index.html">
                 <img src="../img/logo.png" alt="">
                 Integral service
@@ -21,7 +21,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse me-5 nav__cont-buttons" id="navbarNav">
+            <article class="collapse navbar-collapse me-5 nav__cont-buttons" id="navbarNav">
                 <ul class="nav justify-content-end">
                     <li class="nav-item me-5">
                         <a type="button" class="btn nav__buttons-format-buttom" href="./productos.html">Productos</a>
@@ -33,8 +33,8 @@
                         <a type="button" class="btn nav__buttons-format-buttom" href="./alquiler.html">Alquiler</a>
                     </li>
                   </ul>
-            </div>
-        </div>
+            </article>
+        </section>
     </nav>
     <main class="mb-5">
         <section class="d-flex flex-column align-items-center main__presentacion">
@@ -122,17 +122,17 @@
     </main>
     <footer class="text-center text-lg-start mt-5">
         <div class="container p-4">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div class="d-flex flex-row">
+                <div class="col-lg-6 mb-4 mb-md-0">
                     <h5 class="footer__text">
                         <a href="./acercaNosotros.html" class="link footer__link">Acerca de nosotros</a>
                     </h5>
-                    <h5>
+                    <h5 class="footer__text">
                         Certificacion Isso 9001
                     </h5>
                 </div>
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="w-50 ms-auto mb-4">Nuestras redes Sociales</h5>
+                <div class="col-lg-6 mb-4 mb-md-0 footer__social">
+                    <h5 class="w-50 ms-auto mb-4 footer__text">Nuestras redes Sociales</h5>
                     <div class="w-50 ms-auto">
                         <a href="" class="me-4 link-secondary footer__socialNetwork">
                             <img src="../img/facebook-icon.svg" alt="" class="footer__socialNetwork-img">
