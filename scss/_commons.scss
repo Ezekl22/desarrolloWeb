@@ -10,6 +10,7 @@ body{
     nav{
         background-color: $navFooterColor;
     }
+
     nav:hover{
         color:#1B0BFF;
     }
@@ -132,6 +133,31 @@ body{
     .main__mantRep article{
         width: 100% !important;
         margin-bottom: 40px;
+    }
+
+    .main__selector{
+        flex-wrap: wrap !important;
+        margin: 0px 5%;
+    }
+
+        .main__selector div{
+            margin-bottom: 1rem !important;
+        }
+
+            .main__selector div label{
+                margin-left: 0px !important;
+            }
+
+    .main__eleccion-producto{
+        flex-direction: column-reverse !important;
+    }
+
+        .main__eleccion-producto button{
+            margin-bottom: 1rem !important;
+        }
+    
+    .main__subtitulo{
+        width: 80%;
     }
 }
 
