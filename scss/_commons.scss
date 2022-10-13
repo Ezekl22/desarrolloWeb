@@ -159,6 +159,23 @@ body{
     .main__subtitulo{
         width: 80%;
     }
+    
+    .main__nosotros div p{
+        margin: 1rem;
+    }
+
+    .main__contactos p{
+        margin: 1rem !important;
+    }
+
+    .main__title{
+        text-align: center;
+    }
+
+    .form-MR__grilla{
+        display: flex !important;
+        flex-direction: column !important;
+    }
 }
 
 .card__text{
