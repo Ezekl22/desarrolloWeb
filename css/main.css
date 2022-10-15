@@ -5,16 +5,13 @@ html {
 body {
   margin: 0px;
 }
-
-nav {
+body nav {
   background-color: #bbdcf1;
 }
-
-nav:hover {
+body nav:hover {
   color: #1B0BFF;
 }
-
-header {
+body header {
   margin: 100px 0px 100px 0px;
   background-image: url(../img/backgroundNav.jpg);
   background-repeat: no-repeat;
@@ -23,8 +20,7 @@ header {
   height: 30%;
   color: #fff;
 }
-
-footer {
+body footer {
   background-color: #bbdcf1;
   box-shadow: 0 8px 32px 0 #6c757d, 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
   border-top: 1px solid #c8dbe4 !important;
@@ -41,7 +37,6 @@ footer {
 .nav__buttons-format-buttom {
   border-radius: 15px;
 }
-
 .nav__buttons-format-buttom:hover {
   color: #1B0BFF;
   border: 1px solid #93d1fa !important;
@@ -67,10 +62,6 @@ footer {
 
 .footer__socialNetwork-img {
   width: 10%;
-}
-
-.justifi-content-evenly {
-  justify-content: space-evenly;
 }
 
 @media (max-width: 767px) {
@@ -113,12 +104,12 @@ footer {
   .main__mantRep {
     flex-direction: column !important;
   }
-  .main__titulo-subt p {
-    width: 90% !important;
-  }
-  .main__mantRep article {
+  .main__mantRep .article {
     width: 100% !important;
     margin-bottom: 40px;
+  }
+  .main__titulo-subt p {
+    width: 90% !important;
   }
   .main__selector {
     flex-wrap: wrap !important;
@@ -167,14 +158,12 @@ footer {
   background: #00a2c3;
   font-size: larger;
 }
-
 .main__btn:hover {
   background: #0087a2 !important;
   border: #686256 1px solid !important;
   color: #fff !important;
   box-shadow: 0 2px 7px 0 #6c757d, 0 6px 5px 0 rgba(0, 0, 0, 0.16);
 }
-
 .main__btn:focus {
   background: #0087a2 !important;
   border: #686256 1px solid !important;
@@ -200,7 +189,6 @@ footer {
   color: black;
   text-align: center;
 }
-
 .main__card:hover {
   transform: scale(1.04);
 }
@@ -230,12 +218,10 @@ footer {
   margin: 3% 5% 5%;
   background: linear-gradient(90deg, rgb(0, 212, 255) 33%, rgb(8, 38, 140) 86%, rgb(15, 10, 101) 100%);
 }
-
 .main__nosotros img {
   width: 95%;
   height: 86%;
 }
-
 .main__nosotros div p {
   margin-left: 7%;
   font-size: larger;
@@ -245,7 +231,6 @@ footer {
   margin: 3% 10% 5%;
   background: #bee3f5;
 }
-
 .main__contactos p {
   margin-left: 7%;
   font-size: larger;
@@ -263,12 +248,10 @@ footer {
   width: 93%;
   background: #e9ecef;
 }
-
 .main__presentacion-contenido img {
   width: 90%;
   padding-top: 4%;
 }
-
 .main__presentacion-contenido p {
   font-size: larger;
   width: 90%;
@@ -296,21 +279,17 @@ footer {
   background: -moz-radial-gradient(right, #465AFF, #5E53FF);
   background: radial-gradient(to left, #465AFF, #5E53FF);
 }
-
 .main__producto select {
   width: 30%;
   font-size: larger;
 }
-
 .main__producto img {
   width: 60%;
   margin: 3% 0px;
 }
-
 .main__producto p {
   width: 80%;
 }
-
 .main__producto button {
   width: 150px;
   height: 60px;
@@ -323,13 +302,11 @@ footer {
 .main__mantRep {
   width: 90%;
 }
-
 .main__mantRep article {
   width: 30%;
   background: #C2C8FF;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
-
 .main__mantRep article p {
   font-size: larger;
   width: 85%;
@@ -340,7 +317,6 @@ footer {
   margin: 5% 0px;
   background: #C2C8FF;
 }
-
 .main__form-MR button {
   width: 30%;
   height: 60px;
@@ -368,7 +344,6 @@ footer {
 .main__cont-Prob {
   margin: 1% 0px;
 }
-
 .main__cont-Prob label {
   margin: 1% 0px;
 }

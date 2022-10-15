@@ -5,25 +5,29 @@
 .main__nosotros{
     margin: 3% 5% 5%;
     background: linear-gradient(90deg, rgba(0,212,255,1) 33%, rgba(8,38,140,1) 86%, rgba(15,10,101,1) 100%);
-}
-    .main__nosotros img{
+
+    img{
         width: 95%;
         height: 86%;
     }
 
-    .main__nosotros div p{
-        margin-left: 7%;
-        font-size: larger;
-    }
+    div{
+        p{
+            margin-left: 7%;
+            font-size: larger;
+        }
+    } 
+}
 
 .main__contactos{
     margin: 3% 10% 5%;
     background: #bee3f5;
-}
-    .main__contactos p{
+
+    p{
         margin-left: 7%;
         font-size: larger;
     }
+}
 
 .main__title{
     font-size: 45px;

@@ -6,15 +6,13 @@ html{
 }
 body{
     margin: 0px;
-}
     nav{
         background-color: $navFooterColor;
+        &:hover{
+            color:#1B0BFF;
+        }
     }
 
-    nav:hover{
-        color:#1B0BFF;
-    }
-   
     header{
         margin: 100px 0px 100px 0px;
         background-image: url(../img/backgroundNav.jpg);
@@ -24,12 +22,13 @@ body{
         height: 30%;
         color: #fff;
     }
-                
+
     footer{
         background-color: $navFooterColor;
         box-shadow: 0 8px 32px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
         border-top: 1px solid #c8dbe4 !important;
     }
+}
 
 .nav__cont-buttons{
     flex-grow: unset !important;
@@ -41,16 +40,17 @@ body{
 
 .nav__buttons-format-buttom{
     border-radius: 15px;
+    &:hover{
+        color: #1B0BFF;
+        border: 1px solid #93d1fa !important;
+        box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%);
+    }
 }
 
-.nav__buttons-format-buttom:hover{
-    color: #1B0BFF;
-    border: 1px solid #93d1fa !important;
-    box-shadow: 0 8px 17px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%);
-}
-
-.nav__icon-color:hover{
-    color: #1B0BFF;
+.nav__icon-color{
+    &:hover{
+        color: #1B0BFF;
+    }
 }
 
 .footer__link{
@@ -70,9 +70,7 @@ body{
     width: 10%;
 }
 
-.justifi-content-evenly{
-    justify-content: space-evenly;
-}
+
 
 @media (max-width: 767px) {
     .main__nosotros{
@@ -103,10 +101,9 @@ body{
 
     .footer__social{
         width: 66%;
-    }
-
-    .footer__social h5{
-        width: 75% !important;
+        h5{
+            width: 75% !important;
+        }
     }
 
     .footer__social div{
@@ -124,48 +121,53 @@ body{
 
     .main__mantRep{
         flex-direction: column !important;
+        .article{
+            width: 100% !important;
+            margin-bottom: 40px;
+        }
     }
 
     .main__titulo-subt p{
         width: 90% !important;
     }
 
-    .main__mantRep article{
-        width: 100% !important;
-        margin-bottom: 40px;
-    }
-
-    .main__selector{
+    .main__selector {
         flex-wrap: wrap !important;
         margin: 0px 5%;
-    }
-
-        .main__selector div{
+        div{
             margin-bottom: 1rem !important;
-        }
-
-            .main__selector div label{
+            label{
                 margin-left: 0px !important;
             }
+        }
+    }
 
     .main__eleccion-producto{
         flex-direction: column-reverse !important;
     }
 
-        .main__eleccion-producto button{
+    .main__eleccion-producto{
+        button{
             margin-bottom: 1rem !important;
         }
+    }
     
     .main__subtitulo{
         width: 80%;
     }
     
-    .main__nosotros div p{
-        margin: 1rem;
+    .main__nosotros{ 
+        div{ 
+            p{
+                margin: 1rem;
+            }
+        }
     }
 
-    .main__contactos p{
-        margin: 1rem !important;
+    .main__contactos {
+        p{
+            margin: 1rem !important;
+       } 
     }
 
     .main__title{
@@ -191,18 +193,18 @@ body{
     border: #686256 1px solid;
     background: #00a2c3;
     font-size: larger;
-}
 
-.main__btn:hover{
-    background: #0087a2 !important;
-    border: #686256 1px solid !important;
-    color: #fff !important;
-    box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
-}
+    &:hover{
+        background: #0087a2 !important;
+        border: #686256 1px solid !important;
+        color: #fff !important;
+        box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
+    }
 
-.main__btn:focus{
-    background: #0087a2 !important;
-    border: #686256 1px solid !important;
-    color: #fff !important;
-    box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
+    &:focus{
+        background: #0087a2 !important;
+        border: #686256 1px solid !important;
+        color: #fff !important;
+        box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
+    }
 }

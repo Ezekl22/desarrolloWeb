@@ -16,9 +16,10 @@
     text-decoration: none;
     color: black;
     text-align: center;
-}
-.main__card:hover{
-    transform: scale(1.04);
+
+    &:hover{
+        transform: scale(1.04);
+    }
 }
 
 @keyframes cardsIndex {
