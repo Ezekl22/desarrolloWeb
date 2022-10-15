@@ -1,11 +1,7 @@
 
 .main__producto{
-    width: 85%;
-    background: #465AFF;
-    background: -webkit-radial-gradient(right, #465AFF, #5E53FF);
-    background: -moz-radial-gradient(right, #465AFF, #5E53FF);
-    background: radial-gradient(to left, #465AFF, #5E53FF);
-
+    width: $w-85;
+    background: $producto-gradient;
     select{
         width: 30%;
         font-size: larger;

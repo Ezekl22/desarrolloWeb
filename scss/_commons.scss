@@ -1,13 +1,26 @@
 //--------------------------------------variables--------------------------------------
-$navFooterColor:#bbdcf1;
+$nav-FooterColor:#bbdcf1;
+$producto-gradient:-webkit-radial-gradient(right, #465AFF, #5E53FF);
+$w-85: 85%;
+$W-90: 90%;
+$w-95: 95%;
+$w-100: 100%;
+
 //-------------------------------------------------------------------------------------
+
+@mixin flex($direction, $justifi, $align) {
+    display: flex;
+    justify-content: $justifi;
+    align-items: $align;
+}
+
 html{
-    width: 100%;
+    width: $w-100;
 }
 body{
     margin: 0px;
     nav{
-        background-color: $navFooterColor;
+        background-color: $nav-FooterColor;
         &:hover{
             color:#1B0BFF;
         }
@@ -18,13 +31,13 @@ body{
         background-image: url(../img/backgroundNav.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 95%;
+        width: $w-95;
         height: 30%;
         color: #fff;
     }
 
     footer{
-        background-color: $navFooterColor;
+        background-color: $nav-FooterColor;
         box-shadow: 0 8px 32px 0 #6c757d, 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
         border-top: 1px solid #c8dbe4 !important;
     }
@@ -63,14 +76,14 @@ body{
 }
 
 .footer__socialNetwork{
-    text-decoration: none;
+    a{
+        text-decoration: none;
+        img{
+            width: 10%;
+        }
+    }
+    
 }
-
-.footer__socialNetwork-img{
-    width: 10%;
-}
-
-
 
 @media (max-width: 767px) {
     .main__nosotros{
@@ -128,7 +141,7 @@ body{
     }
 
     .main__titulo-subt p{
-        width: 90% !important;
+        width: $W-90 !important;
     }
 
     .main__selector {
@@ -194,14 +207,7 @@ body{
     background: #00a2c3;
     font-size: larger;
 
-    &:hover{
-        background: #0087a2 !important;
-        border: #686256 1px solid !important;
-        color: #fff !important;
-        box-shadow:0 2px 7px 0 #6c757d, 0 6px 5px 0 rgb(0 0 0 / 16%);
-    }
-
-    &:focus{
+    &:hover, &:focus{
         background: #0087a2 !important;
         border: #686256 1px solid !important;
         color: #fff !important;

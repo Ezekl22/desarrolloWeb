@@ -8,6 +8,10 @@
     width: 15%;
 }
 
+.header__card{
+    @include flex(row, center, center);
+}
+
 .main__cont-cards{
     justify-content: space-evenly;
 }

@@ -1,5 +1,5 @@
 .main__mantRep{
-    width: 90%;
+    width: $W-90;
 
     article{
         width: 30%;
@@ -8,13 +8,13 @@
     
         p{
             font-size: larger;
-            width: 85%;
+            width: $w-85;
         }
     }
 }
 
 .main__form-MR{
-    width: 90%;
+    width: $W-90;
     margin: 5% 0px;
     background: #C2C8FF;
 

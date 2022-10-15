@@ -7,7 +7,7 @@
     background: linear-gradient(90deg, rgba(0,212,255,1) 33%, rgba(8,38,140,1) 86%, rgba(15,10,101,1) 100%);
 
     img{
-        width: 95%;
+        width: $w-95;
         height: 86%;
     }
 
@@ -20,6 +20,7 @@
 }
 
 .main__contactos{
+    @extend .main__shadow;
     margin: 3% 10% 5%;
     background: #bee3f5;
 
