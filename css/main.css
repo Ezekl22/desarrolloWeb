@@ -148,7 +148,7 @@ footer {
   .main__title {
     text-align: center;
   }
-  .form-MR__grilla {
+  .form__grilla {
     display: flex !important;
     flex-direction: column !important;
   }
@@ -279,17 +279,14 @@ footer {
 }
 
 .main__enviar {
-  width: 15%;
+  width: 11rem;
   height: 50px;
 }
 
 .main__form-alquiler {
   width: 90%;
   background: rgb(0, 212, 255);
-}
-
-.main__form-alquiler div {
-  margin: 2% 0px;
+  justify-content: space-around;
 }
 
 .main__producto {
@@ -350,7 +347,7 @@ footer {
   margin: 3% 0px;
 }
 
-.form-MR__grilla {
+.form__grilla {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin: 0px 5%;

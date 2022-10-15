@@ -54,64 +54,60 @@
             </article>
         </section>
         <section class="d-flex flex-column align-items-center">
-            <article class="d-flex flex-row justify-content-center mb-3">
+            <article class="d-flex flex-row justify-content-center mb-3 mx-4">
                 <h2>Formulario de pedido de alquiler</h2>
             </article>
-            <article class="d-flex flex-column shadow-xl main__form-alquiler">
-                <div class="d-flex flex-row justifi-content-evenly">
-                    <div class="d-flex flex-column">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default01">Nombre:</span>
-                            <input type="text" tabindex="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default01">
-                        </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group-text" for="inputGroupSelect01">Tipo de documento:</label>
-                            <select class="form-select" tabindex="3" id="inputGroupSelect01">
-                                <option value="1">DNI</option>
-                                <option value="2">Libreta sivica</option>
-                                <option value="3">Libreta de enrolamiento</option>
-                                <option value="4">otro</option>
-                            </select>
-                        </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group-text" for="inputGroupSelect02">Tipo de equipo:</label>
-                            <select class="form-select" tabindex="5" id="inputGroupSelect02">
-                                <option value="1">Impresora</option>
-                                <option value="2">Fotocopiadora</option>
-                            </select>
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default02">Provincia:</span>
-                            <input type="text" tabindex="7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                        </div>
+            <article class="d-flex flex-column shadow-xl main__form-alquiler rounded-3">
+                <div class="d-grid form__grilla my-4">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default01">Nombre:</span>
+                        <input type="text" tabindex="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default01">
                     </div>
-                    <div class="d-flex flex-column">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default03">Apellido:</span>
-                            <input type="text" tabindex="2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default03">
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default04">Numero:</span>
-                            <input type="text" tabindex="4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default04">
-                        </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group-text" for="inputGroupSelect03">Modelo:</label>
-                            <select class="form-select" tabindex="6" id="inputGroupSelect03">
-                                <option value="1">HP Laser RC-70</option>
-                                <option value="2">Samsung QT-50</option>
-                            </select>
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default05">Numero:</span>
-                            <input type="text" class="form-control" tabindex="8" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default05">
-                        </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default03">Apellido:</span>
+                        <input type="text" tabindex="2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default03">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Tipo de documento:</label>
+                        <select class="form-select" tabindex="3" id="inputGroupSelect01">
+                            <option value="1">DNI</option>
+                            <option value="2">Libreta sivica</option>
+                            <option value="3">Libreta de enrolamiento</option>
+                            <option value="4">otro</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default04">Numero:</span>
+                        <input type="text" tabindex="4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default04">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect02">Tipo de equipo:</label>
+                        <select class="form-select" tabindex="5" id="inputGroupSelect02">
+                            <option value="1">Impresora</option>
+                            <option value="2">Fotocopiadora</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect03">Modelo:</label>
+                        <select class="form-select" tabindex="6" id="inputGroupSelect03">
+                            <option value="1">HP Laser RC-70</option>
+                            <option value="2">Samsung QT-50</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default02">Provincia:</span>
+                        <input type="text" tabindex="7" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default05">Numero:</span>
+                        <input type="text" class="form-control" tabindex="8" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default05">
                     </div>
                 </div>
-                <div class="d-flex flex-row justify-content-center align-items-center main__terminos">
+                <div class="d-flex flex-row justify-content-center align-items-center main__terminos m-4">
                     <input type="checkbox" tabindex="9">
                     <p class="main__terminos">Acepto todos los terminos y condiciones del alquiler de los distintos equipos</p>
                 </div>
-                <div class="d-flex flex-row justify-content-center">
+                <div class="d-flex flex-row justify-content-center my-4">
                     <button type="button" tabindex="10" class="btn main__btn main__enviar" tabindex="10">
                         Enviar
                     </button>
