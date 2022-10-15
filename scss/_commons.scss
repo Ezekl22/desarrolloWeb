@@ -134,8 +134,8 @@ body{
 
     .main__mantRep{
         flex-direction: column !important;
-        .article{
-            width: 100% !important;
+        article{
+            width: $w-100 !important;
             margin-bottom: 40px;
         }
     }

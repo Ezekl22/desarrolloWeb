@@ -103,7 +103,7 @@ body footer {
   .main__mantRep {
     flex-direction: column !important;
   }
-  .main__mantRep .article {
+  .main__mantRep article {
     width: 100% !important;
     margin-bottom: 40px;
   }
@@ -344,7 +344,7 @@ body footer {
   .main__mantRep {
     flex-direction: column !important;
   }
-  .main__mantRep .article {
+  .main__mantRep article {
     width: 100% !important;
     margin-bottom: 40px;
   }
