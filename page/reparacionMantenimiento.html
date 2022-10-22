@@ -4,24 +4,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Integral service</title>
+    <meta name="description" content="Reparacion y mantenimiento de impresoras y fotocopiadoras, tambien hacemos monitoreo de su equipo">
+    <meta name="keywords" content="impresora, fotocopiadora, reparacion impresora, reparacion fotocopiadora, mantenimiento equipo de impresion">
+    <meta name="author" content="Ezequiel Centurion">
+    <title>Reparacion y mantenimiento de impresoras y fotocopiadoras</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg shadow border-bottom p-3 mb-5">
-        <div class="container-fluid">
-            <a class="navbar-brand nav__icon-color" href="./index.html">
-                <img src="./img/logo.png" alt="">
+        <section class="container-fluid">
+            <a class="navbar-brand nav__icon-color" href="../index.html">
+                <img src="../img/logo.png" alt="logo de integral service">
                 Integral service
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse me-5 nav__cont-buttons" id="navbarNav">
+            <article class="collapse navbar-collapse me-4 nav__cont-buttons" id="navbarNav">
                 <ul class="nav justify-content-end">
                     <li class="nav-item me-5">
                         <a type="button" class="btn nav__buttons-format-buttom" href="./productos.html">Productos</a>
@@ -33,10 +36,13 @@
                         <a type="button" class="btn nav__buttons-format-buttom" href="./alquiler.html">Alquiler</a>
                     </li>
                   </ul>
-            </div>
-        </div>
+            </article>
+        </section>
     </nav>
     <main class="d-flex flex-column align-items-center">
+        <section class="d-flex flex-row justify-content-evenly main__mantRep mb-5">
+            <h1>Reparacion y mantenimiento de su equipo de impresion</h1>
+        </section>
         <section class="d-flex flex-row justify-content-evenly main__mantRep">
             <article class="d-flex flex-column align-items-center shadow-xl rounded-3">
                 <h2>Mantenimiento</h2>
@@ -57,42 +63,38 @@
             </article>
         </section>
         <section class="d-flex flex-column shadow-xl main__form-MR rounded-4">
-            <article class="d-flex flex-column align-items-center my-4">
+            <article class="d-flex flex-column align-items-center my-4 main__titulo-subt">
                 <h2>Formulario de pedido</h2>
                 <p>
                     Para solicitar una reparacion o mantenimiento, complete a continuacion el siguiente formulario
                 </p>
             </article>
             <article class="d-flex flex-column">
-                <div class="d-flex flex-row justify-content-evenly">
-                    <div class="d-flex flex-column main__cont-wdg">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default01">Nombre:</span>
-                            <input type="text" tabindex="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default01">
-                        </div>
-                        <div class="input-group mb-3">
-                            <label class="input-group-text" for="inputGroupSelect01">Tipo de documento:</label>
-                            <select class="form-select" tabindex="3" id="inputGroupSelect01">
-                                <option value="1">DNI</option>
-                                <option value="2">Libreta sivica</option>
-                                <option value="3">Libreta de enrolamiento</option>
-                                <option value="4">otro</option>
-                            </select>
-                        </div>
+                <div class="d-grid form__grilla">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default01">Nombre:</span>
+                        <input type="text" tabindex="1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default01">
                     </div>
-                    <div class="d-flex flex-column main__cont-wdg">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default02">Apellido:</span>
-                            <input type="text" tabindex="2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default02">
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default03">Numero:</span>
-                            <input type="text" tabindex="4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default03">
-                        </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default02">Apellido:</span>
+                        <input type="text" tabindex="2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default02">
+                    </div>
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="inputGroupSelect01">Tipo de documento:</label>
+                        <select class="form-select" tabindex="3" id="inputGroupSelect01">
+                            <option value="1">DNI</option>
+                            <option value="2">Libreta sivica</option>
+                            <option value="3">Libreta de enrolamiento</option>
+                            <option value="4">otro</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default03">Numero:</span>
+                        <input type="text" tabindex="4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default03">
                     </div>
                 </div>
                 <div class="d-flex flex-row justify-content-center">
-                    <div class="divHalf d-flex flex-row">
+                    <div class="d-flex flex-row">
                         <div class="input-group mb-3">
                             <label class="input-group-text" for="inputGroupSelect02">Tipo de equipo:</label>
                             <select class="form-select" tabindex="5" id="inputGroupSelect02">
@@ -123,29 +125,29 @@
     </main>
     <footer class="text-center text-lg-start mt-5">
         <div class="container p-4">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <div class="d-flex flex-row">
+                <div class="col-lg-6 mb-4 mb-md-0">
                     <h5 class="footer__text">
                         <a href="./acercaNosotros.html" class="link footer__link">Acerca de nosotros</a>
                     </h5>
-                    <h5>
+                    <h5 class="footer__text">
                         Certificacion Isso 9001
                     </h5>
                 </div>
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="w-50 ms-auto mb-4">Nuestras redes Sociales</h5>
-                    <div class="w-50 ms-auto">
-                        <a href="" class="me-4 link-secondary footer__socialNetwork">
-                            <img src="./img/facebook-icon.svg" alt="" class="footer__socialNetwork-img">
+                <div class="col-lg-6 mb-4 mb-md-0 footer__social">
+                    <h5 class="w-50 ms-auto mb-4 footer__text">Nuestras redes Sociales</h5>
+                    <div class="w-50 ms-auto footer__socialNetwork">
+                        <a href="./page404.html" class="me-4 link-secondary">
+                            <img src="../img/facebook-icon.svg" alt="facebook de la empresa">
                         </a>
-                        <a href="" class="me-4 link-secondary footer__socialNetwork">
-                            <img src="./img/twitter-icon.svg" alt="" class="footer__socialNetwork-img">
+                        <a href="./page404.html" class="me-4 link-secondary">
+                            <img src="../img/twitter-icon.svg" alt="twitter de la empresa">
                         </a>
-                        <a href="" class="me-4 link-secondary footer__socialNetwork">
-                            <img src="./img/instagram-icon.svg" alt="" class="footer__socialNetwork-img">
+                        <a href="./page404.html" class="me-4 link-secondary">
+                            <img src="../img/instagram-icon.svg" alt="instagram de la empresa">
                         </a>
-                        <a href="" class="me-4 link-secondary footer__socialNetwork">
-                            <img src="./img/whatsApp-icon.svg" alt="" class="footer__socialNetwork-img">
+                        <a href="./page404.html" class="me-4 link-secondary">
+                            <img src="../img/whatsApp-icon.svg" alt="whatsApp de la empresa">
                         </a>
                     </div>
                 </div>

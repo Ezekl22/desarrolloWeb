@@ -8,6 +8,10 @@
     width: 15%;
 }
 
+.header__card{
+    @include flex(row, center, center);
+}
+
 .main__cont-cards{
     justify-content: space-evenly;
 }
@@ -16,9 +20,10 @@
     text-decoration: none;
     color: black;
     text-align: center;
-}
-.main__card:hover{
-    transform: scale(1.04);
+
+    &:hover{
+        transform: scale(1.04);
+    }
 }
 
 @keyframes cardsIndex {
