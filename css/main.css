@@ -120,6 +120,9 @@ body footer {
   .main__selector div label {
     margin-left: 0px !important;
   }
+  .main__btnProducto {
+    margin-bottom: 1.5rem;
+  }
   .main__eleccion-producto {
     flex-direction: column-reverse !important;
   }
@@ -361,6 +364,9 @@ body footer {
   .main__selector div label {
     margin-left: 0px !important;
   }
+  .main__btnProducto {
+    margin-bottom: 1.5rem;
+  }
   .main__eleccion-producto {
     flex-direction: column-reverse !important;
   }
@@ -452,9 +458,9 @@ body footer {
 .main__producto p {
   width: 80%;
 }
-.main__producto button {
-  width: 150px;
-  height: 60px;
+.main__producto .main__btnProducto {
+  width: 8rem;
+  height: 3rem;
 }
 
 .main__buscador-detalle {
