@@ -485,10 +485,8 @@ body footer {
   margin: 5% 0px;
   background: #C2C8FF;
 }
-.main__form-MR button {
-  width: 30%;
-  height: 60px;
-  margin: 3% 0px;
+.main__form-MR a {
+  width: 10rem;
 }
 
 .form__grilla {
